@@ -1,8 +1,9 @@
-.wrap {
+body {
 	display: grid;
-	grid-template-columns: 1fr 6fr 3fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
 }
 
-.wrap div {
+div {
 	border: solid 2px;
 }
