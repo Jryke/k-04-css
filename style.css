@@ -1,4 +1,8 @@
 .wrap {
 	display: grid;
-	grid-template-columns: 25% 25% 50%;
+	grid-template-columns: 1fr 4fr;
+}
+
+.wrap div {
+	border: solid 2px;
 }
