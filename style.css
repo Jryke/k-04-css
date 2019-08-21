@@ -8,6 +8,21 @@ body {
 	grid-template-columns: 1fr 5fr;
 }
 
+nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 6fr;
+}
+
+nav div {
+	display: inline;
+	border: solid green 3px;
+	margin-left: -3px;
+}
+
+nav:first-child {
+	margin-left: 3px;
+}
+
 #sidebar {
 	background-color: rgb(237, 109, 82);
 }
