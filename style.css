@@ -5,15 +5,11 @@ body {
 
 div {
 	height: 200px;
+	padding: 10px;
+	width: 40px;
+	/* 040604 */
+	box-sizing: border-box;
 
-	width: 100px;
-	border-width: 1px;
-	padding: 2px;
-	/* 040603 */
-	/* the total width of the div is 106px */
-
-/* width: 100px + border-left: 1px + padding-left: 2px + border-right: 1px + padding-right: 2px */
-	
 	border-top: 3px solid red;
 	border-bottom: 3px solid red;
 	border-left: 3px solid blue;
