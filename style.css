@@ -3,11 +3,9 @@ body {
 	padding: 0;
 }
 
-/* This background-image is not covering the complete page, it is cutting off at the very bottom.  I tried increasing the vh to over 100 and it still cuts off at the bottom of the page.
-Can you explain why and how I can fix it?
- */
 div {
-	background-image: url('beach-wallpaper-1.jpg');
-	background-repeat: no-repeat;
+	background-image: url('tropical.jpg');
+	background-repeat: repeat;
+	background-size: 10% auto;
 	height: 100vh;
 }
