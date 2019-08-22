@@ -1,45 +1,13 @@
 body {
 	margin: 0;
-	padding: 0
+	padding: 0;
 }
-.wrap {
+
+/* This background-image is not covering the complete page, it is cutting off at the very bottom.  I tried increasing the vh to over 100 and it still cuts off at the bottom of the page.
+Can you explain why and how I can fix it?
+ */
+div {
+	background-image: url('beach-wallpaper-1.jpg');
+	background-repeat: no-repeat;
 	height: 100vh;
-	display: grid;
-	grid-template-columns: 1fr 5fr;
-}
-
-nav {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 6fr;
-}
-
-nav div {
-	display: inline;
-	border: solid green 3px;
-	margin-left: -3px;
-}
-
-nav:first-child {
-	margin-left: 3px;
-}
-
-#sidebar {
-	background-color: rgb(237, 109, 82);
-}
-
-#main-page {
-	background-color: rgb(51, 51, 51);
-}
-
-#prod-wrap {
-	height: 100vh;
-	margin: 15px;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 2fr;
-}
-
-.prod {
-	margin: 15px;
-	background-color: white;
 }
