@@ -4,11 +4,14 @@ body {
 }
 
 div {
-	margin: 50px;
 	height: 200px;
-	width: 400px;
+	width: 100px;
+	padding: 10px 0;
 	border-top: 3px solid red;
 	border-bottom: 3px solid red;
 	border-left: 3px solid blue;
 	border-right: 3px solid blue;
 }
+
+/* 040602 */
+/* Total width is 100px (10px padding is only on top/bottom) */
