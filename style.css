@@ -11,19 +11,20 @@ body {
 	border-radius: 40px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
 }
 
 #inside-div{
-	height: 440px;
+	height: 180px;
 	width: 180px;
 	background-color: white;
-	margin: 80px 40px 80px 80px;
+	margin: 80px 40px 40px 80px;
 	box-sizing: border-box;
 	border-radius: 20px;
 }
 
 #inside-div2{
-	height: 440px;
+	height: 180px;
 	width: 180px;
 	background-color: white;
 	margin: 80px 80px 40px 40px;
@@ -31,17 +32,20 @@ body {
 	border-radius: 20px;
 }
 
-/* or */
-
-/* #inside-div, #inside-div2{
-	height: 440px;
+#inside-div3{
+	height: 180px;
 	width: 180px;
 	background-color: white;
-	margin: 80px 80px;
+	margin: 40px 40px 80px 80px;
 	box-sizing: border-box;
 	border-radius: 20px;
 }
 
-#inside-div2 {
-	margin-left: 0;
-} */
+#inside-div4{
+	height: 180px;
+	width: 180px;
+	background-color: white;
+	margin: 40px 80px 80px 40px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
