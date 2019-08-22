@@ -5,13 +5,9 @@ body {
 
 div {
 	height: 200px;
-	padding: 10px;
-	width: 40px;
-	/* 040604 */
-	box-sizing: border-box;
-
-	border-top: 3px solid red;
-	border-bottom: 3px solid red;
-	border-left: 3px solid blue;
-	border-right: 3px solid blue;
+	width: 200px;
+	margin: 50px;
+	background-color: rgba(255, 0, 0, 0.6);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
