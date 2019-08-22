@@ -1,14 +1,30 @@
 html {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 body {
 	margin: 0;
 	padding: 0;
+	height: 100vh;
+	width: 100vw;
 }
 
 #wrap {
-	height: 100vh;
-	width: 100vw;
+	padding: 50px;
 	margin: 50px;
+	width: 400px;
+	border: 1px solid black;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+}
+
+small {
+	color: grey;
+}
+
+a {
+	font-family: 'Lato', sans-serif;
+	color: salmon;
 }
