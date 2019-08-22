@@ -10,28 +10,18 @@ body {
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
-#square {
+#square-one {
 	height: 400px;
 	width: 400px;
 	background: white;
 	margin: 50px;
-	box-shadow: 5px 5px 20px rgb(0, 0, 0, .2)
+	box-shadow: 30px 5px 30px rgb(0, 0, 0, .2)
 }
 
-#rounded-square {
+#square-two {
 	height: 400px;
 	width: 400px;
 	background: white;
 	margin: 50px;
-	border-radius: 30px;
-	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-}
-
-#circle {
-	height: 400px;
-	width: 400px;
-	background: white;
-	margin: 50px;
-	border-radius: 200px;
-	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+	box-shadow: -5px 40px 50px rgba(0, 0, 0, 0.2);
 }
