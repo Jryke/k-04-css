@@ -27,7 +27,6 @@ body {
 	background-image: url(forest.jpg);
 	background-size: auto 100%;
 	background-position: center;
-
 	margin: 50px;
 }
 
@@ -40,23 +39,3 @@ body {
 	background-position: center;
 	margin: 50px;
 }
-
-/* #div1 {
-	width: 100%;
-	height: calc((100vw - 300px) / 8 * 3);
-	background-image: url('forest.jpg');
-	background-position: center;
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-}
-
-#div2 {
-	width: 100%;
-	background-color: red;
-}
-
-#div3 {
-	width: 100%;
-	height: calc((100vw - 200px) / 8);
-	background-color: blue;
-} */
