@@ -5,13 +5,17 @@ body {
 
 div {
 	height: 200px;
+
 	width: 100px;
-	padding: 10px 0;
+	border-width: 1px;
+	padding: 2px;
+	/* 040603 */
+	/* the total width of the div is 106px */
+
+/* width: 100px + border-left: 1px + padding-left: 2px + border-right: 1px + padding-right: 2px */
+	
 	border-top: 3px solid red;
 	border-bottom: 3px solid red;
 	border-left: 3px solid blue;
 	border-right: 3px solid blue;
 }
-
-/* 040602 */
-/* Total width is 100px (10px padding is only on top/bottom) */
