@@ -3,10 +3,45 @@ body {
 	padding: 0;
 }
 
-div {
-	height: 200px;
-	width: 200px;
+#wrap {
+	height: 600px;
+	width: 600px;
 	margin: 50px;
 	background-color: rgba(255, 0, 0, 0.6);
+	border-radius: 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#inside-div{
+	height: 440px;
+	width: 180px;
+	background-color: white;
+	margin: 80px 40px 80px 80px;
+	box-sizing: border-box;
 	border-radius: 20px;
 }
+
+#inside-div2{
+	height: 440px;
+	width: 180px;
+	background-color: white;
+	margin: 80px 80px 40px 40px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+/* or */
+
+/* #inside-div, #inside-div2{
+	height: 440px;
+	width: 180px;
+	background-color: white;
+	margin: 80px 80px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+#inside-div2 {
+	margin-left: 0;
+} */
