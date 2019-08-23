@@ -11,33 +11,13 @@ body {
 	margin: 100px;
 }
 
-button {
-	margin-bottom: 20px;
-	width: 90px;
-	height: 45px;
-	background: #277ecf;
-	color: white;
-	font-size: 18px;
-	border-style: none;
-	border-radius: 5px;
-}
-
-.rating {
-	width: 150px;
-	height: 75px;
-	border: 1px solid #dddddd;
-}
-
-.star-container {
-	/* background: red; */
-	width: 90px;
-	height: 24%;
-	margin-top: 18%;
-	margin-left: auto;
-	margin-right: auto;
-
+@keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
 }
 
 i {
-	margin-right: -4px;
+	font-size: 50px;
+	animation: spin 1s linear infinite;
 }
