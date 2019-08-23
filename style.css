@@ -11,21 +11,33 @@ body {
 	margin: 100px;
 }
 
-table {
-	border: 1px solid black;
-	border-collapse: collapse;
-	font-size: 24px;
-	color: #000000
+button {
+	margin-bottom: 20px;
+	width: 90px;
+	height: 45px;
+	background: #277ecf;
+	color: white;
+	font-size: 18px;
+	border-style: none;
+	border-radius: 5px;
 }
 
-thead td {
-	background: #dddddd;
-	font-weight: 900;
-	border-color: #808080;
+.rating {
+	width: 150px;
+	height: 75px;
+	border: 1px solid #dddddd;
 }
 
-td {
-	border: 1px solid #aaaaaa;
-	width: 200px;
-	padding: 16px;
+.star-container {
+	/* background: red; */
+	width: 90px;
+	height: 24%;
+	margin-top: 18%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+i {
+	margin-right: -4px;
 }
