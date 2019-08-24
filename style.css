@@ -27,11 +27,11 @@ nav div {
 
 #main-page {
 	background-color: rgb(51, 51, 51);
+	padding: 15px;
 }
 
 #prod-wrap {
 	height: 100vh;
-	margin: 15px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 2fr;
